@@ -1,0 +1,90 @@
+{
+    "news_ecb": [
+        [
+            "Woman Killed in Queens Hit - Run, Driver Charged",
+            "A woman has died after being hit by a car that fled the scene in Queens Friday, and now, the driver is facing manslaughter charges."
+        ],
+        [
+            "Sacked worker shoots ex - colleagues",
+            "Shooting at Accounting Firm Leaves Woman Dead and 2 Hurt"
+        ],
+        [
+            "The strong 6. 1 - magnitude quake left hundreds more injured as it rocked a region that was devastated by the quake - triggered tsunami of 2004.",
+            "Dozens injured as 6. 1 - magnitude quake hits Indonesia's Aceh"
+        ],
+        [
+            "Fred LaRue, top Nixon aide, dies at 75",
+            "Coroner Gary Hargrove said he believes that Mr. LaRue died Saturday."
+        ],
+        [
+            "Fred LaRue, a Richard Nixon White House aide and key player in the Watergate scandal, was found dead in his room at a Biloxi, Miss. , motel, it was reported Wednesday.",
+            "His body was discovered yesterday by a maid who entered his hotel room in Biloxi."
+        ]
+    ],
+    "news_synth": [
+        [
+            "Hollywood veteran Steven Spielberg announced his departure from his advisory role, citing moral imperatives amid escalating international crises.",
+            "On Wednesday, United States film director Steven Spielberg withdrew from his position as artistic adviser to the 2008 Summer Olympics in Beijing, China."
+        ],
+        [
+            "Government officials reiterated China's commitment to addressing the Darfur crisis through active diplomatic and aid initiatives.",
+            "\"\n\n\"China is also concerned about the humanitarian issues there, but we have been playing a positive and constructive role in promoting peace in Darfur,\" Liu said, adding that China is working with the United Nations to provide aid and resolve the crisis.\n\n"
+        ],
+        [
+            "U.S. President George W. Bush confirmed his attendance at the Beijing Games, asserting a clear separation between sport and politics.",
+            "Meanwhile, United States President George W. Bush confirmed that he still plans to attend the Games in Beijing."
+        ],
+        [
+            "Jetstar, a Qantas subsidiary known for its budget fares, is set to debut a cutting-edge in-flight entertainment trial featuring Apple's iPad.",
+            "Jetstar Airways, a Qantas owned Australian low-cost airline, has announced plans to trial Apple as an in-flight entertainment option."
+        ],
+        [
+            "From later this month, the airline will launch a two-week pilot on domestic flights over one hour, allowing passengers to rent these devices.",
+            "Starting later this month, Jetstar plans to begin a two-week trial, during which passengers will have the option to rent iPads for 10 on domestic flights longer than an hour."
+        ]
+    ],
+    "reviews_synth": [
+        [
+            "The approach leverages the consistent matrix shapes of structurally sparse adapters to overcome the challenges posed by heterogeneous low‐rank configurations.",
+            "We argue that there is a fundamental difference between structurally sparse adapters and low-rank adapters: for the same large language model (LLM), structurally sparse adapters maintain the same matrix shape but exhibit different sparsity patterns. "
+        ],
+        [
+            "Experimental evaluations indicate that the proposed system achieves a significant speedup, demonstrating its potential to outperform existing methods.",
+            "We show that SpartanServe is able to achieve 2.12× speedup over S-LoRA when serving 96 adapters using a single NVIDIA A100 GPU (40GB)."
+        ],
+        [
+            "A key technical contribution lies in the integration of a unified matrix multiplication operation coupled with an innovative memory management technique to facilitate efficient batching.",
+            "We present a unified matrix multiplication operation for these adapters, along with a memory management technique that enables efficient batching. "
+        ],
+        [
+            "The use of specialized kernel optimizations to accelerate matrix multiplications further enhances the system's efficiency.",
+            "This allows us to launch Triton kernels in one single CPU operation, reducing launch overheads."
+        ],
+        [
+            "The experimental design employs a diverse dataset and systematic adapter configuration, lending credibility to the reported performance improvements.",
+            "In each experiment setting, for the n input text data samples, the corresponding adapter configuration was selected using a round-robin approach. "
+        ]
+    ],
+    "reviews_f1000": [
+        [
+            "It would be nice to know whether her genotype was F508del homozygous or heterozygous with a second, preferably identified, mutation. ",
+            "A Caucasian female in her early thirties with F508del/Class I mutation, pancreatic insufficiency and CF related diabetes also fulfilled the Leeds criteria 12 for chronic Psae infection. "
+        ],
+        [
+            "The report of high adherence of the patient is open to doubt because of the poor track record of clinicians detecting non-adherence in an accurate way, and confirmation of the degree of adherence, perhaps with a medication possession report, would be helpful.",
+            "However, adherence to short-term drug regimen tends to be higher 17 . "
+        ],
+        [
+            "It is not entirely clear what triggered the more intensive 6 months. ",
+            "She felt less well with increased sputum volume and dyspnoea at the start of month six. "
+        ],
+        [
+            "Finally, to help readers in areas of the world where trade names are not the same or the medications are not available, Promixin, Azli, Tobi, Tazocin and Coly-Mycin should be identified by their generic names in addition to the trademarked names. ",
+            "In month one, Promixin ® was switched to nebulised AZLI ® 75mg thrice daily. "
+        ],
+        [
+            "Please review the punctuation of this sentence: ..\"In Asia, but also Europe and North America, Nevertheless, potential spreads beyond the borders of the endemic countries is a matter of global concern.\"",
+            "In Asia, but also Europe and North America, Nevertheless, potential spreads beyond the borders of the endemic countries is a matter of global concern. "
+        ]
+    ]
+}

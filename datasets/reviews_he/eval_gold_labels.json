@@ -1,0 +1,17 @@
+{
+    "R+LLM": {
+        "precision": 0.62,
+        "recall": 0.59,
+        "f1": 0.55
+    },
+    "Retriever": {
+        "precision": 0.26,
+        "recall": 0.28,
+        "f1": 0.25
+    },
+    "Random": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    }
+}
