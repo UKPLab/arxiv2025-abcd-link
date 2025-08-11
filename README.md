@@ -1,8 +1,8 @@
-# arxiv2025_abcd_link
+# ABCD-LINK: Annotation Bootstrapping for Cross-Document Fine-Grained Links
+
 [![Arxiv](https://img.shields.io/badge/Arxiv-YYMM.NNNNN-red?style=flat-square&logo=arxiv&logoColor=white)](https://put-here-your-paper.com)
-[![License](https://img.shields.io/github/license/UKPLab/arxiv2025-ABCD-Link)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache--2.0-green?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.11-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![CI](https://github.com/UKPLab/arxiv2025-ABCD-Link/actions/workflows/main.yml/badge.svg)](https://github.com/UKPLab/arxiv2025-ABCD-Link/actions/workflows/main.yml)
 
 This repository contains all scripts and data necessary for reproducing the results from ABCD-Link
 

@@ -23,7 +23,7 @@ jobs:
       - name: Check files
         run: |
           # Define the list of filenames you want to check
-          FILES_TO_CHECK=("LICENSE" "README.md" "requirements.txt" "requirements-dev.txt" "NOTICE.txt" "setup.py")
+          FILES_TO_CHECK=("LICENSE" "README.md" "requirements.txt" "NOTICE.txt")
 
           # Initialize a variable to track missing files
           MISSING_FILES=()
@@ -57,7 +57,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with: 
-          python-version: 3.9
+          python-version: 3.11
           
       - name: Install dependencies
         run: |
