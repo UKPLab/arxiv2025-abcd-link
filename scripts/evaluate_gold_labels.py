@@ -67,7 +67,7 @@ def evaluate_recall(recall_data, predictions, output_path):
 
                 try:
                     p, r, f1 = f1_score(true_targets, predicted_targets)
-                except:
+                except ZeroDivisionError:
                     p, r, f1 = 0.0, 0.0, 0.0
 
                 method_scores[method]["precision"].append(p)

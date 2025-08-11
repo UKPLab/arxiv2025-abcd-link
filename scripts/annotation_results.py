@@ -12,25 +12,17 @@ def stats(df, dataset_name="news"):
     }
     overall_counts = pd.DataFrame(overall_counts)
 
-    # 2. Count of Link/No Link per annotator per method
-    method_counts = (
-        df.groupby("method")[["annotator_1", "annotator_2"]]
-        .apply(lambda g: g.apply(pd.Series.value_counts))
-        .fillna(0)
-        .astype(int)
-    )
-
-    # 3. Agreement overall
+    # 2. Agreement overall
     df["agreement"] = df["annotator_1"] == df["annotator_2"]
 
-    # 4. Cohen's Kappa overall
+    # 3. Cohen's Kappa overall
     kappa_overall = cohen_kappa_score(df["annotator_1"], df["annotator_2"])
-    # 5. Cohen's Kappa per method
+    # 4. Cohen's Kappa per method
     kappa_per_method = df.groupby("method", group_keys=False)[
         ["annotator_1", "annotator_2"]
     ].apply(lambda g: cohen_kappa_score(g["annotator_1"], g["annotator_2"]))
 
-    # 6. Both annotators say "Link" per method
+    # 5. Both annotators say "Link" per method
     df["both_link"] = (df["annotator_1"] == "Link") & (df["annotator_2"] == "Link")
 
     # Link rates individually
