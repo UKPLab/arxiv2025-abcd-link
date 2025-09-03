@@ -223,8 +223,16 @@ project-root/
 
 Please use the following citation:
 
-```
-tbd
+```text
+@misc{basch2025abcdlink,
+      title={ABCD-LINK: Annotation Bootstrapping for Cross-Document Fine-Grained Links}, 
+      author={Serwar Basch and Ilia Kuznetsov and Tom Hope and Iryna Gurevych},
+      year={2025},
+      eprint={2509.01387},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.01387}, 
+}
 ```
 
 ## Disclaimer
